@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H.S. Gupta | Mathematics & Science (PCM) Tutor | Classes 6–10</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Expert Maths, Physics & Chemistry (PCM) tuition for Classes 6–10 (CBSE / ICSE / State Boards) by H.S. Gupta, retired Senior Superintending Engineer, CSIR. Online & Home Tuition available.">
+  <meta name="keywords" content="Maths Physics Chemistry tuition, Classes 6-10, CBSE, ICSE, online home tuition, PCM tutor New Delhi, H.S. Gupta tutor, Science tutor">
+  <meta name="author" content="H.S. Gupta">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="H.S. Gupta | Mathematics & Science (PCM) Tutor | Classes 6–10">
+  <meta property="og:description" content="20+ Years of Teaching Experience. Conceptual clarity in PCM for Classes 6-10. Book a free demo class today!">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "H.S. Gupta",
+    "jobTitle": "Private Tutor & Educational Consultant",
+    "description": "Mathematics & Science (PCM) Tutor for Classes 6–10 with 20+ years of teaching experience.",
+    "telephone": "+91-XXXXXXXXXX",
+    "email": "hsgupta.tuitions@example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "[YOUR CITY / LOCATION]",
+      "addressRegion": "[YOUR STATE]",
+      "addressCountry": "IN"
+    },
+    "knowsAbout": ["Mathematics", "Physics", "Chemistry", "CBSE", "ICSE", "Olympiad Preparation"]
+  }
+  </script>
+
+  <style>
+    /* CSS VARIABLES & RESET */
+    :root {
+      --primary: #1F3A5F;       /* Deep Navy */
+      --primary-light: #2A4D7E;
+      --accent: #F2A900;        /* Warm Gold / Amber */
+      --accent-hover: #D99600;
+      --bg-main: #FAFAFC;
+      --bg-card: #FFFFFF;
+      --text-main: #2C3E50;
+      --text-muted: #64748B;
+      --border-color: #E2E8F0;
+      --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+      --shadow-lg: 0 10px 25px rgba(31,58,95,0.12);
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 20px;
+      --transition: all 0.3s ease;
+      --font-body: 'Inter', sans-serif;
+      --font-heading: 'Playfair Display', serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+      color: var(--primary);
+      line-height: 1.25;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 0.75rem;
+      position: relative;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto 2.5rem auto;
+      font-size: 1.05rem;
+    }
+
+    /* LAYOUT CONTAINERS */
+    .container {
+      width: 90%;
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 4rem 0;
+    }
+
+    section {
+      position: relative;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.85rem 1.75rem;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      transition: var(--transition);
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background-color: var(--accent);
+      color: var(--primary);
+      box-shadow: 0 4px 10px rgba(242, 169, 0, 0.3);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: #FFFFFF;
+      border: 2px solid #FFFFFF;
+      margin-left: 1rem;
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+      transform: translateY(-2px);
+    }
+
+    /* STICKY HEADER & NAVBAR */
+    .header {
+      position: sticky;
+      top: 0;
+      background-color: var(--primary);
+      box-shadow: var(--shadow-md);
+      z-index: 1000;
+      padding: 0.8rem 0;
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      color: #FFFFFF;
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo span {
+      color: var(--accent);
+    }
+
+    .nav-menu {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    .nav-link {
+      color: #E2E8F0;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: var(--transition);
+    }
+
+    .nav-link:hover {
+      color: var(--accent);
+    }
+
+    .hamburger {
+      display: none;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: #FFFFFF;
+      font-size: 1.5rem;
+    }
+
+    /* 1. HERO SECTION */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, #112239 100%);
+      color: #FFFFFF;
+      padding: 5rem 0 6rem 0;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-content {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background-color: rgba(242, 169, 0, 0.15);
+      color: var(--accent);
+      padding: 0.4rem 1.2rem;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(242, 169, 0, 0.3);
+    }
+
+    .hero h1 {
+      color: #FFFFFF;
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero .tagline {
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .hero .subline {
+      font-size: 1.1rem;
+      color: #CBD5E1;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    /* 2. QUICK STATS STRIP */
+    .stats-strip {
+      background-color: #FFFFFF;
+      margin-top: -3rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    .stat-item {
+      text-align: center;
+      border-right: 1px solid var(--border-color);
+      padding: 0.5rem 1rem;
+    }
+
+    .stat-item:last-child {
+      border-right: none;
+    }
+
+    .stat-number {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: block;
+      font-family: var(--font-heading);
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* 3. ABOUT SECTION */
+    .about-card {
+      background-color: var(--bg-card);
+      padding: 3rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
+    .about-highlight {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    /* 4. SUBJECTS SECTION */
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .subject-card {
+      background-color: var(--bg-card);
+      padding: 2.5rem 2rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      text-align: center;
+    }
+
+    .subject-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--accent);
+    }
+
+    .subject-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    .subject-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .subject-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .badges-container {
+      text-align: center;
+      background-color: #FFFFFF;
+      padding: 1.5rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+    }
+
+    .badges-title {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-group {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background-color: var(--primary);
+      color: #FFFFFF;
+      padding: 0.5rem 1.2rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    /* 5. EXPERIENCE & ACHIEVEMENTS */
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .exp-card {
+      background-color: var(--bg-card);
+      padding: 2rem;
+      border-radius: var(--radius-md);
+      border-left: 5px solid var(--accent);
+      box-shadow: var(--shadow-sm);
+      border-top: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .exp-card h4 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .exp-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* 6. TEACHING PHILOSOPHY */
+    .philosophy-section {
+      background: linear-gradient(135deg, rgba(31, 58, 95, 0.05) 0%, rgba(242, 169, 0, 0.05) 100%);
+      padding: 4rem 0;
+    }
+
+    .quote-box {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 3rem;
+      box-shadow: var(--shadow-md);
+      border-left: 6px solid var(--primary);
+      position: relative;
+    }
+
+    .quote-box::before {
+      content: "“";
+      font-family: var(--font-heading);
+      font-size: 5rem;
+      color: rgba(242, 169, 0, 0.3);
+      position: absolute;
+      top: 0.5rem;
+      left: 1.5rem;
+      line-height: 1;
+    }
+
+    .quote-text {
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--text-main);
+      position: relative;
+      z-index: 1;
+      line-height: 1.8;
+    }
+
+    /* 7. TEACHING APPROACH */
+    .approach-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .approach-card {
+      background-color: var(--bg-card);
+      padding: 2rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      gap: 1.2rem;
+      align-items: flex-start;
+      transition: var(--transition);
+    }
+
+    .approach-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+
+    .approach-icon {
+      font-size: 2rem;
+      background-color: rgba(31, 58, 95, 0.08);
+      padding: 0.6rem;
+      border-radius: 50%;
+      line-height: 1;
+    }
+
+    .approach-card h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .approach-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    /* 8. WHY CHOOSE H.S. GUPTA? */
+    .why-list {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .why-item {
+      background-color: var(--bg-card);
+      padding: 1.2rem 1.8rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      box-shadow: var(--shadow-sm);
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    .check-icon {
+      color: #10B981;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    /* 9. TUITION DETAILS */
+    .details-table-container {
+      background-color: var(--bg-card);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .details-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      border-bottom: 1px solid var(--border-color);
+      padding: 1.2rem 2rem;
+    }
+
+    .details-row:last-child {
+      border-bottom: none;
+    }
+
+    .details-label {
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .details-value {
+      color: var(--text-main);
+    }
+
+    .placeholder-highlight {
+      background-color: #FEF3C7;
+      color: #92400E;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    /* 10. CONTACT FORM SECTION */
+    .contact-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 3rem;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border-color);
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+      color: var(--primary);
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      transition: var(--transition);
+      background-color: #FAFAFC;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+      background-color: #FFFFFF;
+      box-shadow: 0 0 0 3px rgba(31, 58, 95, 0.1);
+    }
+
+    .checkbox-group {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.5rem;
+    }
+
+    .checkbox-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: normal;
+      cursor: pointer;
+    }
+
+    .checkbox-item input {
+      width: auto;
+    }
+
+    .radio-group {
+      display: flex;
+      gap: 2rem;
+      margin-top: 0.5rem;
+    }
+
+    .radio-item {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: normal;
+      cursor: pointer;
+    }
+
+    .error-msg {
+      color: #EF4444;
+      font-size: 0.825rem;
+      margin-top: 0.3rem;
+      display: none;
+    }
+
+    .honeypot {
+      display: none !important;
+    }
+
+    .submit-btn {
+      width: 100%;
+      padding: 1rem;
+      background-color: var(--primary);
+      color: #FFFFFF;
+      font-size: 1.05rem;
+      font-weight: 600;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .submit-btn:hover {
+      background-color: var(--primary-light);
+    }
+
+    .submit-btn:disabled {
+      background-color: #94A3B8;
+      cursor: not-allowed;
+    }
+
+    #formResponse {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      border-radius: var(--radius-sm);
+      display: none;
+      text-align: center;
+      font-weight: 500;
+    }
+
+    .response-success {
+      background-color: #D1FAE5;
+      color: #065F46;
+      border: 1px solid #A7F3D0;
+    }
+
+    .response-error {
+      background-color: #FEE2E2;
+      color: #991B1B;
+      border: 1px solid #FCA5A5;
+    }
+
+    /* 11. FOOTER & FLOATING WHATSAPP */
+    footer {
+      background-color: var(--primary);
+      color: #E2E8F0;
+      padding: 3rem 0 1.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .footer-links a {
+      color: #E2E8F0;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 1.5rem;
+      color: #94A3B8;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 30px;
+      right: 30px;
+      background-color: #25D366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    /* SCROLL REVEAL ANIMATION CLASS */
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* MOBILE RESPONSIVENESS */
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2.2rem; }
+      .hero .tagline { font-size: 1.15rem; }
+      .section-title { font-size: 1.8rem; }
+      .form-row { grid-template-columns: 1fr; }
+      .stats-strip { grid-template-columns: 1fr 1fr; }
+      .stat-item { border-right: none; border-bottom: 1px solid var(--border-color); }
+      .stat-item:last-child { border-bottom: none; }
+      .details-row { grid-template-columns: 1fr; gap: 0.3rem; }
+
+      .hamburger { display: block; }
+      .nav-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--primary);
+        flex-direction: column;
+        padding: 1.5rem 0;
+        gap: 1.2rem;
+        display: none;
+        box-shadow: var(--shadow-md);
+      }
+
+      .nav-menu.active {
+        display: flex;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="logo">H.S. <span>Gupta</span></a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#subjects" class="nav-link">Subjects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#approach" class="nav-link">Approach</a></li>
+        <li><a href="#details" class="nav-link">Details</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge">Academic Excellence in PCM</span>
+        <h1>H.S. Gupta</h1>
+        <div class="tagline">Mathematics & Science (PCM) Tutor for Classes 6–10</div>
+        <div class="subline">Retired Senior Superintending Engineer, CSIR New Delhi · 20+ Years of Teaching Experience</div>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">Book a Free Demo Class</a>
+          <a href="#subjects" class="btn btn-secondary">View Subjects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. QUICK STATS STRIP -->
+  <div class="container" style="padding-top:0; padding-bottom:0;">
+    <div class="stats-strip reveal">
+      <div class="stat-item">
+        <span class="stat-number">20+ Years</span>
+        <span class="stat-label">Teaching Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">Classes 6–10</span>
+        <span class="stat-label">Specialised Focus</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">CBSE / ICSE</span>
+        <span class="stat-label">& State Boards</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">Online & Home</span>
+        <span class="stat-label">Flexible Tuition Modes</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. ABOUT SECTION -->
+  <section id="about" class="container reveal">
+    <h2 class="section-title">About H.S. Gupta</h2>
+    <p class="section-subtitle">Combining engineering insights with pedagogical excellence to nurture future scientific minds.</p>
+    <div class="about-card">
+      <p>
+        <span class="about-highlight">H.S. Gupta</span> is a highly experienced educator and retired Senior Superintending Engineer from the prestigious <span class="about-highlight">Council of Scientific and Industrial Research (CSIR), New Delhi</span>, with more than 20 years of experience in teaching and technical mentoring.
+      </p>
+      <br>
+      <p>
+        He specialises in <span class="about-highlight">Physics, Chemistry, and Mathematics (PCM) for Classes 6 to 10</span>, combining strong conceptual clarity with real-world engineering insight. His unique teaching methodology builds a solid academic foundation, develops analytical problem-solving skills, and equips students with the confidence required to excel in school examinations, competitive Olympiads, and future higher-secondary studies.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. SUBJECTS SECTION -->
+  <section id="subjects" style="background-color: #F1F5F9; padding: 4rem 0;">
+    <div class="container reveal">
+      <h2 class="section-title">Areas of Expertise</h2>
+      <p class="section-subtitle">Comprehensive coverage of core STEM subjects designed for conceptual mastery.</p>
+
+      <div class="subjects-grid">
+        <div class="subject-card">
+          <span class="subject-icon">📐</span>
+          <h3>Mathematics</h3>
+          <p>Number systems, algebra, geometry, mensuration, trigonometry, statistics, and probability.</p>
+        </div>
+        <div class="subject-card">
+          <span class="subject-icon">⚛️</span>
+          <h3>Physics</h3>
+          <p>Motion, force and energy, light, electricity, magnetism, heat, and sound.</p>
+        </div>
+        <div class="subject-card">
+          <span class="subject-icon">🧪</span>
+          <h3>Chemistry</h3>
+          <p>Matter, atomic structure, chemical reactions, acids, bases & salts, metals & non-metals, and carbon compounds.</p>
+        </div>
+      </div>
+
+      <div class="badges-container">
+        <div class="badges-title">Target Classes & Curriculum Boards</div>
+        <div class="badge-group">
+          <span class="badge">Class 6</span>
+          <span class="badge">Class 7</span>
+          <span class="badge">Class 8</span>
+          <span class="badge">Class 9</span>
+          <span class="badge">Class 10</span>
+        </div>
+        <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.95rem;">
+          CBSE  |  ICSE  |  State Boards
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. EXPERIENCE & ACHIEVEMENTS -->
+  <section id="experience" class="container reveal">
+    <h2 class="section-title">Experience & Track Record</h2>
+    <p class="section-subtitle">A distinguished career in engineering and higher education.</p>
+
+    <div class="timeline">
+      <div class="exp-card">
+        <h4>Senior Superintending Engineer (Retd.)</h4>
+        <p>Council of Scientific and Industrial Research (CSIR), New Delhi</p>
+      </div>
+      <div class="exp-card">
+        <h4>Visiting Faculty</h4>
+        <p>Pusa Institute of Technology, New Delhi</p>
+      </div>
+      <div class="exp-card">
+        <h4>Visiting Faculty</h4>
+        <p>Institute of Hotel Management (IHM), New Delhi</p>
+      </div>
+      <div class="exp-card">
+        <h4>20+ Years Mentoring</h4>
+        <p>Dedicated home & online coaching for school students</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. TEACHING PHILOSOPHY -->
+  <section class="philosophy-section">
+    <div class="container reveal">
+      <div class="quote-box">
+        <p class="quote-text">
+          Every student learns differently. Mr. Gupta believes that true understanding comes from asking <strong>WHY</strong>, not just memorising <strong>HOW</strong>. Concepts are explained step by step, linked to everyday examples and reinforced through regular practice, so that students gain both accuracy and speed.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. TEACHING APPROACH -->
+  <section id="approach" class="container reveal">
+    <h2 class="section-title">Teaching Approach</h2>
+    <p class="section-subtitle">A structured, student-centric methodology for maximum academic growth.</p>
+
+    <div class="approach-grid">
+      <div class="approach-card">
+        <div class="approach-icon">🎯</div>
+        <div>
+          <h4>Concept-First Learning</h4>
+          <p>Building strong fundamentals before delving into complex problem-solving.</p>
+        </div>
+      </div>
+      <div class="approach-card">
+        <div class="approach-icon">💡</div>
+        <div>
+          <h4>Practical, Real-Life Examples</h4>
+          <p>Drawn directly from engineering and practical scientific experience.</p>
+        </div>
+      </div>
+      <div class="approach-card">
+        <div class="approach-icon">📝</div>
+        <div>
+          <h4>Regular Practice & Testing</h4>
+          <p>Worksheets, chapter-wise tests, and targeted doubt-clearing sessions.</p>
+        </div>
+      </div>
+      <div class="approach-card">
+        <div class="approach-icon">🔍</div>
+        <div>
+          <h4>Individual Attention</h4>
+          <p>Pace and teaching method tailored specifically to each student’s learning curve.</p>
+        </div>
+      </div>
+      <div class="approach-card">
+        <div class="approach-icon">🏆</div>
+        <div>
+          <h4>Exam Readiness</h4>
+          <p>Focus on board-pattern questions, time management, and answer-writing techniques.</p>
+        </div>
+      </div>
+      <div class="approach-card">
+        <div class="approach-icon">🌱</div>
+        <div>
+          <h4>Confidence Building</h4>
+          <p>A supportive environment where students are always comfortable asking questions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. WHY CHOOSE H.S. GUPTA? -->
+  <section style="background-color: #F1F5F9; padding: 4rem 0;">
+    <div class="container reveal">
+      <h2 class="section-title">Why Choose H.S. Gupta?</h2>
+      <p class="section-subtitle">Key advantages of learning under senior mentorship.</p>
+
+      <div class="why-list">
+        <div class="why-item">
+          <span class="check-icon">✓</span>
+          <span>Over two decades of proven teaching experience and academic success</span>
+        </div>
+        <div class="why-item">
+          <span class="check-icon">✓</span>
+          <span>Rich background at a premier national research organisation (CSIR) and reputed institutes</span>
+        </div>
+        <div class="why-item">
+          <span class="check-icon">✓</span>
+          <span>Specialist in PCM, ideal for building a strong foundation for Classes 11–12 and competitive exams</span>
+        </div>
+        <div class="why-item">
+          <span class="check-icon">✓</span>
+          <span>Disciplined, patient, structured, and result-oriented personal guidance</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. TUITION DETAILS -->
+  <section id="details" class="container reveal">
+    <h2 class="section-title">Tuition Details</h2>
+    <p class="section-subtitle">Clear information on classes, location, and teaching modes.</p>
+
+    <div class="details-table-container">
+      <div class="details-row">
+        <div class="details-label">Eligible Classes</div>
+        <div class="details-value">Classes 6, 7, 8, 9 and 10</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Subjects Covered</div>
+        <div class="details-value">Physics, Chemistry, Mathematics (PCM)</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Curriculum Boards</div>
+        <div class="details-value">CBSE / ICSE / State Boards</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Instruction Modes</div>
+        <div class="details-value">Online Interactive Classes & Home Tuition (Select Areas)</div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Location</div>
+        <div class="details-value"><span class="placeholder-highlight">[YOUR LOCATION / CITY / AREA HERE]</span></div>
+      </div>
+      <div class="details-row">
+        <div class="details-label">Direct Contact</div>
+        <div class="details-value">
+          Phone: <span class="placeholder-highlight">[YOUR PHONE NUMBER HERE]</span> | 
+          Email: <span class="placeholder-highlight">[YOUR EMAIL HERE]</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. CONTACT / ENQUIRY FORM -->
+  <section id="contact" style="background-color: #F1F5F9; padding: 4rem 0;">
+    <div class="container reveal">
+      <h2 class="section-title">Book a Free Demo Class / Enquiry</h2>
+      <p class="section-subtitle">Fill in the details below to schedule a session or discuss tuition requirements.</p>
+
+      <div class="contact-container">
+        <form id="tuitionForm" novalidate>
+          
+          <!-- Honeypot Field -->
+          <div class="honeypot">
+            <input type="text" name="website_hp" id="website_hp" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="studentName">Student Name *</label>
+              <input type="text" id="studentName" name="studentName" required placeholder="e.g. Rahul Sharma">
+              <div class="error-msg" id="err-studentName">Please enter the student's name.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="parentName">Parent / Guardian Name *</label>
+              <input type="text" id="parentName" name="parentName" required placeholder="e.g. Suresh Sharma">
+              <div class="error-msg" id="err-parentName">Please enter the parent's name.</div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number (10 digits) *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="9876543210">
+              <div class="error-msg" id="err-phone">Please enter a valid 10-digit phone number.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address (Optional)</label>
+              <input type="email" id="email" name="email" placeholder="parent@example.com">
+              <div class="error-msg" id="err-email">Please enter a valid email address.</div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="studentClass">Class *</label>
+              <select id="studentClass" name="studentClass" required>
+                <option value="">-- Select Class --</option>
+                <option value="Class 6">Class 6</option>
+                <option value="Class 7">Class 7</option>
+                <option value="Class 8">Class 8</option>
+                <option value="Class 9">Class 9</option>
+                <option value="Class 10">Class 10</option>
+              </select>
+              <div class="error-msg" id="err-studentClass">Please select a class.</div>
+            </div>
+
+            <div class="form-group">
+              <label for="board">Board *</label>
+              <select id="board" name="board" required>
+                <option value="CBSE">CBSE</option>
+                <option value="ICSE">ICSE</option>
+                <option value="State Board">State Board</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Subjects Needed *</label>
+            <div class="checkbox-group">
+              <label class="checkbox-item"><input type="checkbox" name="subjects" value="Maths"> Maths</label>
+              <label class="checkbox-item"><input type="checkbox" name="subjects" value="Physics"> Physics</label>
+              <label class="checkbox-item"><input type="checkbox" name="subjects" value="Chemistry"> Chemistry</label>
+              <label class="checkbox-item"><input type="checkbox" name="subjects" value="All PCM" id="allPcm"> All PCM</label>
+            </div>
+            <div class="error-msg" id="err-subjects">Please select at least one subject.</div>
+          </div>
+
+          <div class="form-group">
+            <label>Preferred Mode *</label>
+            <div class="radio-group">
+              <label class="radio-item"><input type="radio" name="mode" value="Online" checked> Online Tuition</label>
+              <label class="radio-item"><input type="radio" name="mode" value="Home"> Home Tuition</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message / Specific Requirements (Optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Any specific topics, exam timing, or queries..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="checkbox-item" style="font-weight: normal; font-size: 0.9rem;">
+              <input type="checkbox" id="consent" name="consent" required>
+              I agree to be contacted regarding this enquiry. *
+            </label>
+            <div class="error-msg" id="err-consent">You must give consent to be contacted.</div>
+          </div>
+
+          <button type="submit" class="submit-btn" id="submitBtn">Submit Enquiry</button>
+        </form>
+
+        <div id="formResponse"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. FOOTER -->
+  <footer>
+    <div class="nav-container">
+      <div class="footer-content" style="width:100%;">
+        <div>
+          <h3>H.S. Gupta Tuitions</h3>
+          <p style="margin-top: 0.5rem; color: #94A3B8;">Mathematics & Science (PCM) for Classes 6–10</p>
+          <p style="color: #94A3B8;">Location: <span class="placeholder-highlight">[YOUR LOCATION HERE]</span></p>
+        </div>
+
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#subjects">Subjects</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom" style="width:100%;">
+        <p>© <span id="year"></span> H.S. Gupta. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    💬
+  </a>
+
+  <!-- VANILLA JAVASCRIPT -->
+  <script>
+    // CONFIGURATION: Replace with your actual deployed Google Apps Script URL
+    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxnpOoLwWk5iAb0ZxFPU4Xgc6mneduXzAfG8H44I-rGRdbRGeBrNafTHVbWX0fn4PI/exec";
+
+    // Dynamic Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mobile Hamburger Navigation
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const navMenu = document.getElementById('navMenu');
+
+    hamburgerBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    // Close menu on link click
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+
+    // Scroll Reveal Animation
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealOnScroll = () => {
+      const windowHeight = window.innerHeight;
+      revealElements.forEach(el => {
+        const elementTop = el.getBoundingClientRect().top;
+        if (elementTop < windowHeight - 100) {
+          el.classList.add('active');
+        }
+      });
+    };
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll(); // Trigger on load
+
+    // Checkbox All PCM Auto-toggle
+    const allPcmCb = document.getElementById('allPcm');
+    const subjectCbs = document.querySelectorAll('input[name="subjects"]');
+    
+    allPcmCb.addEventListener('change', (e) => {
+      if(e.target.checked) {
+        subjectCbs.forEach(cb => { if(cb !== allPcmCb) cb.checked = true; });
+      }
+    });
+
+    // Form Submission & Client-Side Validation
+    const form = document.getElementById('tuitionForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formResponse = document.getElementById('formResponse');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // Reset Error Messages
+      document.querySelectorAll('.error-msg').forEach(msg => msg.style.display = 'none');
+      formResponse.style.display = 'none';
+
+      // Honeypot Spam Check
+      if (document.getElementById('website_hp').value !== '') {
+        console.warn('Bot submission detected.');
+        return;
+      }
+
+      let isValid = true;
+
+      // Validate Student Name
+      const studentName = document.getElementById('studentName').value.trim();
+      if (!studentName) {
+        document.getElementById('err-studentName').style.display = 'block';
+        isValid = false;
+      }
+
+      // Validate Parent Name
+      const parentName = document.getElementById('parentName').value.trim();
+      if (!parentName) {
+        document.getElementById('err-parentName').style.display = 'block';
+        isValid = false;
+      }
+
+      // Validate Phone (10 digits)
+      const phone = document.getElementById('phone').value.trim();
+      const phoneRegex = /^[0-9]{10}$/;
+      if (!phoneRegex.test(phone)) {
+        document.getElementById('err-phone').style.display = 'block';
+        isValid = false;
+      }
+
+      // Validate Email (optional, but must be valid if filled)
+      const email = document.getElementById('email').value.trim();
+      if (email !== '') {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+          document.getElementById('err-email').style.display = 'block';
+          isValid = false;
+        }
+      }
+
+      // Validate Class
+      const studentClass = document.getElementById('studentClass').value;
+      if (!studentClass) {
+        document.getElementById('err-studentClass').style.display = 'block';
+        isValid = false;
+      }
+
+      // Validate Subjects (at least one)
+      const selectedSubjects = Array.from(document.querySelectorAll('input[name="subjects"]:checked'))
+                                    .map(cb => cb.value);
+      if (selectedSubjects.length === 0) {
+        document.getElementById('err-subjects').style.display = 'block';
+        isValid = false;
+      }
+
+      // Validate Consent
+      const consent = document.getElementById('consent').checked;
+      if (!consent) {
+        document.getElementById('err-consent').style.display = 'block';
+        isValid = false;
+      }
+
+      if (!isValid) return;
+
+      // Construct Payload
+      const formData = {
+        timestamp: new Date().toLocaleString(),
+        studentName: studentName,
+        parentName: parentName,
+        phone: phone,
+        email: email || 'N/A',
+        studentClass: studentClass,
+        board: document.getElementById('board').value,
+        subjects: selectedSubjects.join(', '),
+        mode: document.querySelector('input[name="mode"]:checked').value,
+        message: document.getElementById('message').value.trim() || 'N/A',
+        honeypot: document.getElementById('website_hp').value
+      };
+
+      // UI Loading State
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting Enquiry...';
+
+      // Send via Fetch API
+      fetch(GOOGLE_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors', // Standard workaround for Apps Script redirect CORS issues
+        headers: {
+          'Content-Type': 'text/plain;charset=utf-8'
+        },
+        body: JSON.stringify(formData)
+      })
+      .then(() => {
+        // Success Handler
+        formResponse.className = 'response-success';
+        formResponse.innerHTML = 'Thank you! We have received your enquiry and will contact you shortly.';
+        formResponse.style.display = 'block';
+        form.reset();
+      })
+      .catch(error => {
+        console.error('Error submitting enquiry:', error);
+        formResponse.className = 'response-error';
+        formResponse.innerHTML = 'There was an issue sending your enquiry. Please contact us directly via WhatsApp or Phone.';
+        formResponse.style.display = 'block';
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Enquiry';
+      });
+    });
+  </script>
+</body>
+</html>
